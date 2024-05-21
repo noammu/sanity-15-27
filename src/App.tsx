@@ -1,29 +1,40 @@
 import styles from './App.module.scss';
-import ViteSvg from './assets/vite.svg';
-import TypescriptSvg from './assets/typescript.svg';
+import { Compi } from './components/compi/compi';
 
 function App() {
     return (
         <div className={styles.App}>
-            <h2>Welcome to your App Component 🎉</h2>
-            <span>
-                Double click to edit App component
+            <Compi />
+            <form>
+                <label>First name:</label>
                 <br />
-                &amp; drag here elements from + Add <b>Elements</b> Panel
-            </span>
-            <p
-                style={{
-                    fontSize: '12px',
-                    marginTop: '80px',
-                    display: 'flex',
-                    gap: '3px',
-                    justifyContent: 'center',
-                }}
-            >
-                This project is using <img src={ViteSvg} width="12" />+
-                <img src={TypescriptSvg} width="12" />
-                Visit vitejs.dev to learn more.
-            </p>
+                <input type="text" />
+                <br />
+                <label>Last name:</label>
+                <br />
+                <input type="text" />
+                <br />
+                <br />
+                <input type="submit" value="Submit" />
+            </form>
+            <h4>Heading 4</h4>
+            <a href="/">
+                <img
+                    src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                    alt=""
+                />
+                <video
+                    controls={true}
+                    src="https://wixplosives.github.io/codux-assets-storage/add-panel/video-placeholder.mp4"
+                >
+                    <ol>
+                        <li>First item</li>
+                        <li>Second item</li>
+                        <li>Third item</li>
+                    </ol>
+                </video>
+                Link
+            </a>
         </div>
     );
 }

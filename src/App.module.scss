@@ -1,9 +1,12 @@
 .App {
-  margin: 0 auto;
+  margin: 0px auto;
   padding: 2.3em 3em 2em;
   text-align: center;
   display: flex;
   flex-direction: column;
   border: 2px dashed #888888;
   border-radius: 30px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #a70b0b;
+  background-color: #e3c5c5;
 }

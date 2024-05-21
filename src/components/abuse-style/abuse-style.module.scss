@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow: visible;
+  margin: 55px;
+}
+.grid {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  gap: 20px;
+}
+.wets {
+  padding: 6px;
+  margin: 4px;
+}
+.aaa {
+  font-family:
+    Times New Roman,
+    serif;
+  font-size: 36px;
+  line-height: 2;
+  font-weight: 300;
+  font-style: italic;
+  color: #200dff;
+  direction: ltr;
+  text-align: start;
+}
